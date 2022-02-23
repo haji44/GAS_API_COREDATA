@@ -29,24 +29,6 @@ struct ContentView: View {
             } //: LIST
             .onAppear {
                 vm.getLocation()
-                
-//                            for fetchLocation in vm.location {
-//                                let newLoacation = LocationEntity(context: viewContext)
-//                                newLoacation.name = fetchLocation.name
-//                                newLoacation.detail = fetchLocation.detail
-//                                newLoacation.latitude = fetchLocation.latitude
-//                                newLoacation.longitude = fetchLocation.longitude
-//                                newLoacation.phone_number = fetchLocation.phone_number
-//                                newLoacation.street = fetchLocation.street
-//                                newLoacation.website = fetchLocation.website
-                                
-//                                newLoacation.icon_image = Image(fetchLocation.icon_image)
-//                                do {
-//                                    try viewContext.save()
-//                                } catch {
-//
-//                                }
-//                            }
             }
             .navigationTitle("Shope List")
         }//: NAVIGATION

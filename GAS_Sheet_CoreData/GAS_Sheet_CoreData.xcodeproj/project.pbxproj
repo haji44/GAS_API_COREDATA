@@ -10,6 +10,10 @@
 		2014D54027C61F04004EC4C3 /* GASTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D53F27C61F04004EC4C3 /* GASTabView.swift */; };
 		2014D54727C61FED004EC4C3 /* ShopInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D54627C61FED004EC4C3 /* ShopInfoCell.swift */; };
 		2014D54927C63368004EC4C3 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D54827C63368004EC4C3 /* DatabaseHandler.swift */; };
+		2014D54E27C6936B004EC4C3 /* UserEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D54A27C6936B004EC4C3 /* UserEntity+CoreDataClass.swift */; };
+		2014D54F27C6936B004EC4C3 /* UserEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D54B27C6936B004EC4C3 /* UserEntity+CoreDataProperties.swift */; };
+		2014D55027C6936B004EC4C3 /* LocationEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D54C27C6936B004EC4C3 /* LocationEntity+CoreDataClass.swift */; };
+		2014D55127C6936B004EC4C3 /* LocationEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014D54D27C6936B004EC4C3 /* LocationEntity+CoreDataProperties.swift */; };
 		20292C9B27C5D6150033931F /* GAS_Sheet_CoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20292C9A27C5D6150033931F /* GAS_Sheet_CoreDataApp.swift */; };
 		20292C9F27C5D6160033931F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20292C9E27C5D6160033931F /* Assets.xcassets */; };
 		20292CA227C5D6160033931F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20292CA127C5D6160033931F /* Preview Assets.xcassets */; };
@@ -29,6 +33,10 @@
 		2014D53F27C61F04004EC4C3 /* GASTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GASTabView.swift; sourceTree = "<group>"; };
 		2014D54627C61FED004EC4C3 /* ShopInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopInfoCell.swift; sourceTree = "<group>"; };
 		2014D54827C63368004EC4C3 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		2014D54A27C6936B004EC4C3 /* UserEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2014D54B27C6936B004EC4C3 /* UserEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2014D54C27C6936B004EC4C3 /* LocationEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2014D54D27C6936B004EC4C3 /* LocationEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		20292C9727C5D6150033931F /* GAS_Sheet_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAS_Sheet_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20292C9A27C5D6150033931F /* GAS_Sheet_CoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAS_Sheet_CoreDataApp.swift; sourceTree = "<group>"; };
 		20292C9E27C5D6160033931F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +147,10 @@
 		20292CAB27C5D66D0033931F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2014D54A27C6936B004EC4C3 /* UserEntity+CoreDataClass.swift */,
+				2014D54B27C6936B004EC4C3 /* UserEntity+CoreDataProperties.swift */,
+				2014D54C27C6936B004EC4C3 /* LocationEntity+CoreDataClass.swift */,
+				2014D54D27C6936B004EC4C3 /* LocationEntity+CoreDataProperties.swift */,
 				20292CAC27C5D66D0033931F /* DDGLocation.swift */,
 			);
 			path = Model;
@@ -270,6 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2014D54027C61F04004EC4C3 /* GASTabView.swift in Sources */,
+				2014D55127C6936B004EC4C3 /* LocationEntity+CoreDataProperties.swift in Sources */,
+				2014D54E27C6936B004EC4C3 /* UserEntity+CoreDataClass.swift in Sources */,
+				2014D55027C6936B004EC4C3 /* LocationEntity+CoreDataClass.swift in Sources */,
 				2014D54927C63368004EC4C3 /* DatabaseHandler.swift in Sources */,
 				20292CBC27C5D6870033931F /* ContentViewModel.swift in Sources */,
 				20292CB627C5D67F0033931F /* APIManager.swift in Sources */,
@@ -281,6 +296,7 @@
 				20292CCA27C61C2D0033931F /* UserView.swift in Sources */,
 				20292CC027C611920033931F /* Const.swift in Sources */,
 				20292CB427C5D67F0033931F /* APIError.swift in Sources */,
+				2014D54F27C6936B004EC4C3 /* UserEntity+CoreDataProperties.swift in Sources */,
 				20292CC627C615050033931F /* LocationDetailView.swift in Sources */,
 				20292C9B27C5D6150033931F /* GAS_Sheet_CoreDataApp.swift in Sources */,
 			);

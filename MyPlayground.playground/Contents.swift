@@ -19,3 +19,8 @@ func f1<T: Named>(_ type: T.Type) {
 }
 
 f1(A.self)
+
+
+
+
+

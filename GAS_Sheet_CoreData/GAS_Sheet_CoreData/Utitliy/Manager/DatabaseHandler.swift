@@ -17,6 +17,18 @@ class DatabaseHandler {
         return object
     }
   
+    
+    func save() {
+        do {
+            try viewContext.save()
+        } catch {
+            if let error = error as? PersistanceError {
+                print(error)
+            }
+        }
+    }
+    
+    // return array of certain entity
     func fetch<T: NSManagedObject>(_ type: T.Type) -> [T] {
         let request = T.fetchRequest()
         do {
